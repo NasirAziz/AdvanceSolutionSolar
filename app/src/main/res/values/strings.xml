@@ -2,4 +2,6 @@
     <string name="app_name">Advance Solutions</string>
     <string name="btn_next">Next</string>
     <string name="welcome_to_advance_solutions">Welcome To Advance Solutions</string>
+    <string name="advance_solution"><u>Advance Solution</u></string>
+    <string name="home_message">We are providing solution of cctv and Solar panels goto respective option to calculate your need.</string>
 </resources>
