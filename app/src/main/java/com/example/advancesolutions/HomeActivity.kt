@@ -17,7 +17,6 @@ class HomeActivity : AppCompatActivity() {
 
         binding.btnSolar.setOnClickListener {
             val intent = Intent(this, SolarActivity::class.java)
-            Log.i("llllll","asdasdsada")
             startActivity(intent)
         }
     }

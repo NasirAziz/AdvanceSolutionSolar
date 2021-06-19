@@ -30,13 +30,13 @@ class SolarActivity : AppCompatActivity() {
             val layout = binding.root
             fillBlankEditViews(layout)
 
-            fan = binding.etFans.text.toString().toInt()
-            lights = binding.etLights.text.toString().toInt()
-            ac = binding.etAC.text.toString().toInt()
-            machine = binding.etWMachine.text.toString().toInt()
-            led = binding.etLEDs.text.toString().toInt()
-            freezer = binding.etFreezer.text.toString().toInt()
-            motor = binding.etMotor.text.toString().toInt()
+            fan = binding.etFans.text.toString().replace("\n","").replace(" ","").toInt()
+            lights = binding.etLights.text.toString().replace("\n","").replace(" ","").toInt()
+            ac = binding.etAC.text.toString().replace("\n","").replace(" ","").toInt()
+            machine = binding.etWMachine.text.toString().replace("\n","").replace(" ","").toInt()
+            led = binding.etLEDs.text.toString().replace("\n","").replace(" ","").toInt()
+            freezer = binding.etFreezer.text.toString().replace("\n","").replace(" ","").toInt()
+            motor = binding.etMotor.text.toString().replace("\n","").replace(" ","").toInt()
 
 
             var totalWatts: Double = ((fan * 120)
